@@ -1,0 +1,29 @@
+{
+  "name": "phaser-memory-match",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-metz/phaser-memory-match.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-metz/phaser-memory-match/issues"
+  },
+  "homepage": "https://github.com/chris-metz/phaser-memory-match#readme",
+  "dependencies": {
+    "modern-normalize": "^1.0.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "phaser": "^3.24.1"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  }
+}
